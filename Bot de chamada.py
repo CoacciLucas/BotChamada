@@ -6,7 +6,8 @@ import pyttsx3
 audio = sr.Recognizer()
 maquina = pyttsx3.init()
 
-palavras = ['lucas', 'chamada', 'luciano']
+palavras = ['lucas', 'chamada', 'luciano', 'lucas, ta ai?',
+            'lucas ta ai', 'lucas?', 'lucas coassi', 'lucas coati']
 
 while True:
     try:
